@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Quicksand:wght@300&display=swap");
+
+:root {
+  --cor-primaria: #0f74bc;
+  --cor-secundaria: #0c609c;
+  --cor-terciaria: #0a5388;
+  --cor-background: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
