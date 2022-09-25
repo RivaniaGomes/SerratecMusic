@@ -6,8 +6,6 @@ let formulario = {
 
 //Aqui estamos escutando o evento de click
 formulario.btnentrar.addEventListener("click", () => {
-  alert("Olá!!!");
-
   let usuario = new Usuario({
     email: formulario.email.value,
     senha: formulario.senha.value,
