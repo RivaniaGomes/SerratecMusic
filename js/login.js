@@ -17,7 +17,7 @@ formulario.btnentrar.addEventListener("click", () => {
 });
 
 function autenticar(email, senha) {
-  fetch("${URL_BASE}/api/login", {
+  fetch(`${URL_BASE}/api/login`, {
     headers: {
       "Content-Type": "application/json",
     },
